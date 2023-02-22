@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Page 1</title>
+    <style>
+      body {
+        padding: auto;
+        background-color: rgb(222, 222, 255);
+      }
+
+      main {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      main div {
+        background-color: rgb(255, 193, 254);
+      }
+
+      p {
+        padding: 20px;
+      }
+
+      span {
+        grid-column: 2 / span 2;
+        grid-row: 1;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>This is Page 1!</h1>
+    </header>
+
+    <main>
+      <div>
+        <p>
+          This is pink text! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Provident officiis placeat voluptatibus, aliquam debitis quia
+          quibusdam, incidunt voluptatum ipsum asperiores ut tempora impedit
+          aspernatur. Doloribus debitis ratione excepturi ad magnam?
+        </p>
+      </div>
+      <span>This is Span!</span>
+    </main>
+  </body>
+</html>

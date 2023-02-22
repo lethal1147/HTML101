@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+  }
+
+p {
+    font-style: italic;
+}
+
+div, p, span{ font-size: 12px;}
+
+
+span{
+    background-color: wheat;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(
+      to right,
+      rgb(92, 211, 255),
+      rgb(170, 170, 255)
+    );
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
